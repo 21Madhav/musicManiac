@@ -1,0 +1,107 @@
+#title {
+  background-color: rgb(63, 63, 163);
+  color: white;
+  
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  size: 3rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat";
+
+  font-size: 3rem !important;
+  line-height: 1.5 !important;
+}
+h4 {
+    font-family: "Montserrat";
+    padding: 7% 15%;
+    font-size: 3rem !important;
+    line-height: 1.5 !important;
+  }
+
+.container-fluid {
+  padding: 3% 15% 12% !important;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding-bottom: 4.5rem !important;
+  padding-left: 0px !important;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem !important;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 18px !important;
+  font-family: "Montserrat-light";
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* title */
+
+#gramphoneimg {
+  height: 200%;  
+  width: 50%; 
+  border-radius: 10%;
+  position: absolute;
+  right: 10%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+    
+  }
+  #gramphoneimg {
+   height: 100%; 
+    border-radius: 10%;
+    position: static;   
+  }
+  
+  h4{
+      text-align: center;
+      font-size: 2rem !important; 
+
+  }
+
+}
+
+
+/* works */
+
+#works{
+    padding: 3% 10% 0% !important;
+    text-align: center;
+    }
+
+.fa-9x{
+    margin: 7% 15%;
+}
+
+/* contactus */
+
+#contactus{
+    background-color:rgb(63, 63, 163);
+    text-align: center;
+}
+
+
+.imgfooter {
+    margin: 10px;
+  }
+
+  p {
+    color: white;
+    padding-top: 30px;
+  }
